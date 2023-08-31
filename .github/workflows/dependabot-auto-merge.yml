@@ -1,7 +1,7 @@
 name: Dependabot auto-approve
 on:
     schedule:
-        - cron: "10 18 * * *"
+        - cron: "12 18 * * *"
 
 permissions:
   pull-requests: write
