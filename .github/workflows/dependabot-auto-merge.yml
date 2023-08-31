@@ -1,7 +1,7 @@
 name: Dependabot auto-approve
 on:
     schedule:
-        - cron: "08 18 * * *"
+        - cron: "10 18 * * *"
 
 permissions:
   pull-requests: write
@@ -21,3 +21,4 @@ jobs:
         env:
           PR_URL: ${{github.event.pull_request.html_url}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          
