@@ -6,7 +6,7 @@
 version: 2
 updates:
   - package-ecosystem: "github-actions"
-    directory: "/"
+    directory: "/client"
     schedule:
       interval: "daily"
       time: "17:22"
@@ -15,7 +15,7 @@ updates:
       - dependency-name: "*"
         update-types: ["version-update:semver-major"]
   - package-ecosystem: "npm"
-    directory: "/"
+    directory: "/client"
     schedule:
       interval: "daily"
       time: "17:23"
