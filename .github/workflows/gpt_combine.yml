@@ -1,9 +1,7 @@
 name: Dependabot auto-approve-and-merge
 on:
-  pull_request:
-    types:
-      - opened
-      - synchronize
+  schedule:
+    - cron: "4 18 * * *"
 
 permissions:
   pull-requests: write
